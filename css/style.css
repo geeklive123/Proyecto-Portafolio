@@ -5,6 +5,7 @@ body{
     font: 16px / 25px;
     color: var(--purple);
     margin: 0;
+    font-family:"Poppins", sans-serif;
 }
 
 .header {
@@ -29,6 +30,16 @@ body{
     display: flex;
     list-style: none;
     gap: 40px;
+}
+.menu ul a {
+    font:bold 14px / 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:  #ffffff;
+    font: #310a90;
+}
+.menu ul a.is-active {
+    color: #310a90;
 }
 .button-menu {
     background-color: #310a90;
@@ -69,6 +80,7 @@ body{
 .presentation-description h1{
     font: bold 95px / 153.71px;
     margin: 0;
+    color:#310a90;
 }
 .presentation-description p{
     display: block;
@@ -76,6 +88,7 @@ body{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    color:#310a90;
 }
 .presentation-image img{
 
@@ -118,10 +131,16 @@ body{
     gap: 24px;
 }
 .mensaje h2 {
+    color:#310a90;
         font-weight: 300;
         font-size: 34px;
         line-height: 55px;
 }
+.mensaje h3 {
+    color:#310a90;
+
+}
+
 .acerca-mi img {
     block-size: 80px;
 }
@@ -139,10 +158,12 @@ body{
     gap: 24px;
 }
 .resena-card h2{
+    color:#310a90;
     font-size: 34px;
     line-height: 55px;
 }
 .resena-card h3{
+    color:#310a90;
     font-weight: bold;
     font-size: 24px;
     line-height: 39px;
@@ -166,6 +187,10 @@ body{
     gap: 16px;
     padding-block: 40px;
 }
+.proyecto-descripcion p{
+    color:#310a90;
+}
+
 .title{
     background-color:  #310a90;
     color: #ffffff;
@@ -242,3 +267,182 @@ body{
     color: #ffffff;
     text-align: center;
 }
+
+
+
+
+@media screen and (max-width: 1024px) {
+    body{
+       
+    }
+    
+    .presentation-description{
+        align-items: center;
+    }
+    .presentation-description p{
+        text-align: center;
+    }
+    .presentation-image img {
+        inline-size: 377px;
+        block-size: 368px;
+    }
+    .mensaje h2 {
+        color:#310a90;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 55px;
+    }
+    .mensaje h3{
+        color:#310a90;
+        font-size: 25px;
+    }
+   
+    .resena-card h2 {
+        font-size: 24px;
+        line-height: 55px;
+        text-align: center;
+    }
+    .resena-card h3 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 39px;
+        opacity: 0.5;
+    }
+    .form .title {
+        text-transform: uppercase;
+        margin: 0;
+        align-self: stretch;
+        text-align: center;
+    }
+   
+    .footer-copyright {
+        display: flex;
+        gap: 60px;
+    }
+    .title {
+        text-align: center;
+    }
+    
+
+}
+@media screen and (max-width: 767px) {
+
+    .presentation-portfolio {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+    }
+    .presentation-description{
+        align-items: center;
+    }
+    .presentation-description p{
+        text-align: center;
+    }
+    .presentation-image img {
+        inline-size: 377px;
+        block-size: 368px;
+    }
+    .mensaje h2 {
+        color:#310a90;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 55px;
+    }
+    .mensaje h3{
+        color:#310a90;
+    }
+    .presentacion{
+        flex-direction: column;
+    }
+    .resena-card h2 {
+        font-size: 15px;
+        line-height: 55px;
+        text-align: center;
+    }
+    .resena-card h3 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 39px;
+        opacity: 0.5;
+    }
+    .form .title {
+        text-transform: uppercase;
+        margin: 0;
+        align-self: stretch;
+        text-align: center;
+    }
+    
+    .footer-copyright {
+        display: flex;
+        gap: 60px;
+    }
+    .title {
+        text-align: center;
+    }
+    
+    }
+ 
+@media screen and (max-width: 576px) {
+   
+    .presentation-portfolio{
+        flex-direction: column-reverse;
+    }
+    .presentation-description{
+        align-items: center;
+    }
+    .presentation-description p{
+        text-align: center;
+    }
+    .presentation-image img {
+        inline-size: 377px;
+        block-size: 368px;
+    }
+    .mensaje h2 {
+        color:#310a90;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 55px;
+    }
+    .mensaje h3{
+        color:#310a90;
+    }
+    .presentacion{
+        flex-direction: column;
+    }
+    .resena-card h2 {
+        font-size: 15px;
+        line-height: 55px;
+        text-align: center;
+    }
+    .resena-card h3 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 39px;
+        opacity: 0.5;
+    }
+    .form .title {
+        text-transform: uppercase;
+        margin: 0;
+        align-self: stretch;
+        text-align: center;
+    }
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .footer-copyright {
+        display: flex;
+        gap: 60px;
+    }
+    .title {
+        text-align: center;
+    }
+    .menu{
+        display: none;
+    }
+    }
