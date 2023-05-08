@@ -8,125 +8,151 @@
     <title>Document</title>
 </head>
 <body>
-<header class="header">
-    <div class="logo">
-        <h1>LOGO</h1>
-    </div>
-    <div class="menu">
-        <a href="">HOLA</a>
-        <a>PROYECTOS</a>
-        <a>HABLEMOS</a>
-    </div>
-    <div class="botom">
-        <a>Curriculum</a>
-    </div>
-</header>
+    <header class="header">
+        <div class="wrapper">
+          <div class="header-content">
+            <img src="icons/logo.svg" width="70" height="20" alt="Logo oficial">
+            <nav class="menu">
+              <ul>
+                <li><a href="#main">Hola</a></li>
+                <li><a href="#project">Proyectos</a></li>
+                <li><a href="#contact">Hablemos</a></li>
+              </ul>
+            </nav>
+            <button class="button-menu">Currículum</button>
+          </div>
+        </div>
+      </header>
+      
 <main class="main">
-    <div class="contender">
-       
-            <div class="information">
-                <h3>!Hola a todos!</h3>
-                <h2>Soy Jaume</h2>
-                <p>Frontend Developer que le encanta implementar diseños que inspira y atraen a las personas</p>
-                <a><img src="icons/icon-phone.svg"></a>
-                <a><img src="icons/icon-important_mail.svg"></a>
-                <a><img src="icons/icon-instagram.svg"></a>
-                <a><img src="icons/icon-twitter_squared.svg"></a>
-            </div>
-            <div class="photo-information">
-                <img src="img/jaume.png">
-            </div>
-  
+    <section  class="presentation-portfolio" >
+        <div class="presentation-image">
+          <img src="img/jaume.png" width="338" height="330" alt="Photo of Jaume">
         </div>
+        <div class="presentation-description">
+          <h1>
+            <span>¡Hola a todos!</span>
+            <span>Soy Jaume</span>
+          </h1>
+          <p>
+            Frontend Developer que le encanta implementar diseños que inspiran y
+            atraen a las personas.
+          </p>
+          <div class="social">
+            <a class="icon" ><img src="icons/icon-phone.svg"></a>
+            <a class="icon" ><img src="icons/icon-important_mail.svg"></a>
+            <a class="icon" ><img src="icons/icon-instagram.svg"></a>
+            <a class="icon" ><img src="icons/icon-twitter_squared.svg"></a>
+          </div>
+          <a  class="button">Descargar Currículum</a>
+        </div>
+      </section>
    
-        <div class="information-dev">
-            <p>A lo Largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increibles</p>
-            <h4>Aqui hay algunos que me gustaria compartir.</h4>
-            <img src="icons/icons-down.svg" alt="flecha-abajo">
-        </div>
+   
+      <section class="mensaje">
+        <h2>A lo largo de mi carrera como Frontend, he tenido el privilegio de
+          trabajar en proyectos retadores e increíbles</h2>
+        <h3>Aquí hay algunos que me gustaría compartir.</h3>
+        <a class="acerca-mi"><img src="icons/icons-down.svg" alt="flecha-abajo"></a>
+      </section>
 
-    <div class="information-pelis">
-        <div class="information-text">
-            <h2>Leonidasesteban.com</h2>
-            <p>Accede a mas 120 proyectos que te ayudaran a mejorar tus habilidades como desarrollador Front-End</p>
-            <div class="botom-comics">
-                <button id="verProyecto"><a>VER PROYECTO</a></button>
-                <button id="verCodigo"><a>VER CODIGO</a></button>
-                 </div>
+      <div class="presentacion" id="project">
+        <div class="proyecto-imagen">
+          <img src="img/img.png" alt="laptop">
         </div>
-        <div class="information-img">
-            <img src="img/img.png" alt="">
+        <div class="proyecto-descripcion">
+          <a  class="title">LeonidasEsteban.com</a>
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <a href="#" class="button is-secondary">Ver Código</a>
+          <a href="#" class="button">Ver Proyecto</a>
         </div>
-    </div>
-    <div class="information-resena">
-        <div class="information-card">
-            <img src="img/user.png" alt="clientefoto">
-            <h2>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</h2>
-            <h3>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</h3>
+      </div>
+      <section class="resena-portfolio">
+        <article class="resena-card">
+          <img class="resena-image" src="img/user.png" alt="">
+          <h2>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
+            desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+            meses".</h2>
+          <h3>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</h3>
+        </article>
+      </section>
+      <div class="presentacion">
+        <div class="proyecto-imagen">
+          <img src="img/📱 iPad.png"La práctica hace al maestro">
         </div>
-    </div>
-
-    <div class="information-comics" >
-        
-        <div class="comic-img" >
-            <img src="img/📱 iPad.png" alt="">
+        <div class="proyecto-descripcion">
+          <a class="title" >MARVOL</a>
+          <p>
+            Es el sitio oficial de Marvol Entertainment. Explore películas,
+            personajes, cómics, programas de televisión, videos y más oficiales
+            de Marvol.
+          </p>
+          <a  class="button is-secondary">Ver Código</a>
+          <a class="button">Ver Proyecto</a>
         </div>
-        <div class="comic-text">
-            <h2>Marvol</h2>
-             <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
-             <div class="botom-comics">
-            <button id="verProyecto"><a>VER PROYECTO</a></button>
-            <button id="verCodigo"><a>VER CODIGO</a></button>
-             </div>
-            
+      </div>
+      <section class="resena-portfolio">
+        <article class="resena-card">
+          <img class="resena-image" src="icons/user3.png" alt="">
+          <h2>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</h2>
+          <h3>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</h3>
+        </article>
+      </section>
+      <div class="presentacion">
+        <div class="proyecto-imagen">
+          <img src="img/📱 Iphone X.png" alt="La práctica hace al maestro">
         </div>
-    </div>
-    <div class="information-resena">
-        <div class="information-card">
-            <img src="img/user2.png" alt="clientefoto">
-            <h2>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</h2>
-            <h3>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</h3>
+        <div class="proyecto-descripcion">
+          <a class="title">NETNET</a>
+          <p>
+            Películas y series ilimitadas y mucho más. Disfruta donde quieras.
+            Cancela cuando quieras.
+          </p>
+          <a href="#" target="_blank" class="button is-secondary">Ver Código</a>
+          <a href="#" target="_blank" class="button">Ver Proyecto</a>
         </div>
-    </div>
-    <div class="contender">
-        <div class="information-text">
-            <h2>NETNET</h2>
-            <p>Películas y series ilimitadas y mucho más.
-                Disfruta donde quieras. Cancela cuando quieras. </p>
-                <div class="botom-comics">
-                    <button id="verProyecto"><a>VER PROYECTO</a></button>
-                    <button id="verCodigo"><a>VER CODIGO</a></button>
-                     </div>
+      </div>
+      <section class="resena-portfolio">
+        <article class="resena-card">
+          <img class="resena-image" src="img/user2.png" alt="">
+          <h2>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</h2>
+          <h3>MARCO CORTEZ / NETNET</h3>
+        </article>
+      </section>
+      <form id="contact" action=""  class="form">
+        <div class="form-content">
+          <h2 class="title">Hablemos</h2>
+          <p>
+            Si está interesado en trabajar conmigo en su próximo proyecto, no
+            dude en ponerse en contacto conmigo.
+          </p>
+          <label for="form-name">Nombre Completo<input required="" name="name" type="text" placeholder="Juan"></label>
+          <label for="form-email">Correo Electrónico<input required="" name="email"  type="email" placeholder="Juan@gmail.com"></label>
+          <label for="form-message">Mensaje<textarea name="message" cols="30" rows="7"></textarea>
+          </label>
+          <button class="button" type="submit">Enviar Mensaje</button>
         </div>
-        <div div class="photo-information">
-            <img src="img/📱 Iphone X.png" alt="">
-        </div>
-    </div>
-    <div class="information-resena">
-        <div class="information-card">
-            <img src="img/user2.png" alt="clientefoto">
-            <h2>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</h2>
-            <h3>MARCO CORTEZ / NETNET</h3>
-        </div>
-    </div>
-    <div class="formulario">
-        <h2> Hablemos </h2>
-        <p>Si está interesado en trabajar conmigo en su próximo proyecto, 
-            no dude en ponerse en contacto conmigo.</p>
-            <form>
-                <label for="fname">Nombre Completo</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="lname">Correo Electronico:</label><br>
-                <input type="text" id="lname" name="lname">
-                <label for="lname">Mensaje</label><br>
-               <textarea></textarea>
-                <button>ENVIAR MENSAJE</button>
-            </form>
-    </div>
-
+      </form>
 </main>
-<footer>
-
-</footer>
+<footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="icons/logo.svg" width="70" height="20" alt="Logo oficial">
+      </div>
+      <div class="social">
+        <a class="icon" ><img src="icons/icon-phone.svg"></a>
+        <a class="icon"><img src="icons/icon-important_mail.svg"></a>
+        <a class="icon" ><img src="icons/icon-instagram.svg"></a>
+        <a class="icon"><img src="icons/icon-twitter_squared.svg"></a>
+      </div>
+      <div class="footer-copyright">
+        <p>Hecho con el ❤ por Jaume.</p>
+        <p>Copyright 2021 - Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
